@@ -18,6 +18,7 @@
   set shortmess+=c
   set signcolumn=yes
   set laststatus=2
+  set termguicolors
 
   "icons
   set guifont=DroidSansMono\ Nerd\ Font\ 11
@@ -117,3 +118,6 @@ let g:closetag_close_shortcut = '<leader>>'
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 autocmd FileType * let b:coc_pairs_disabled = ['<']
+
+"coc Hightlight settings
+autocmd CursorHold * silent call CocActionAsync('highlight')
