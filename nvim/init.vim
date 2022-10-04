@@ -19,6 +19,7 @@
   set signcolumn=yes
   set laststatus=2
   set termguicolors
+  set autoread
 
   "icons
   set guifont=DroidSansMono\ Nerd\ Font\ 11
