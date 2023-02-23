@@ -15,7 +15,7 @@ vim.opt.backup = false
 
 -- search
 vim.opt.hlsearch = false
-vim.opt.incsearch = false
+vim.opt.incsearch = true
 
 -- code navigation
 vim.opt.scrolloff = 8
